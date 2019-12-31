@@ -8,6 +8,7 @@ BRANDS = []
   def initialize(brand)
     if !BRANDS.include?
       BRANDS << brand
+    end
   end
 
   def cobble
