@@ -8,7 +8,6 @@ BRANDS = []
   def initialize(brand)
     BRANDS << brand
   end
-  
 
   def cobble
     self.condition = "new"
