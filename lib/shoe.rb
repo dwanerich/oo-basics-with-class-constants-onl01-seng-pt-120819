@@ -20,5 +20,3 @@ BRANDS = []
   end
 
 end
-
-BRANDS.size = 3
