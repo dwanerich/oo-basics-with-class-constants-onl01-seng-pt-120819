@@ -7,7 +7,7 @@ BRANDS = []
     
   def initialize(brand)
     @brand = brand
-    BRANDS << brand
+    BRANDS << brand.count
   end
   
   def brand
