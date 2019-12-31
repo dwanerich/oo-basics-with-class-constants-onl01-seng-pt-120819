@@ -7,7 +7,7 @@ BRANDS = []
     
   def initialize(brand)
     @brand = brand
-    BRANDS.size = 3 << brand
+    BRANDS << brand
   end
   
   def brand
@@ -20,3 +20,5 @@ BRANDS = []
   end
 
 end
+
+BRANDS.size = 3
